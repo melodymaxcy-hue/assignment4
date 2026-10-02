@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 346409733}
   - component: {fileID: 346409732}
   - component: {fileID: 346409736}
+  - component: {fileID: 346409737}
   m_Layer: 0
   m_Name: FunnyBall
   m_TagString: Untagged
@@ -414,6 +415,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &346409737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346409731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c1e9c0c58514710839d7f57b4ba1e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallCollision
+  ballValue: 1
 --- !u!1 &370844184
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,6 +680,7 @@ GameObject:
   - component: {fileID: 676827665}
   - component: {fileID: 676827664}
   - component: {fileID: 676827663}
+  - component: {fileID: 676827666}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -690,7 +705,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -489.2, y: -226.2}
+  m_AnchoredPosition: {x: -488.23, y: -226.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &676827663
@@ -775,6 +790,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676827661}
   m_CullTransparentMesh: 1
+--- !u!114 &676827666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676827661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24033d0de30a141b6afc486a046022b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RestartScript
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -488.6, y: -225.3}
+  m_AnchoredPosition: {x: -487.72, y: -225.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475860269
